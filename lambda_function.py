@@ -43,6 +43,7 @@ def handler(event, context):
         
         cust_id= key
         url = host + '/' + index + '/' + datatype + '/' + cust_id
+        print("Attempting to access URL:", url)
         title = lines[0]
         print("Key:", key)
         
